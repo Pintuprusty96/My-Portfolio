@@ -13,7 +13,7 @@ const HomeFooter = () => {
 		<div className='home-footer'>
 			<div className='container'>
 				<div className='left-footer'>
-					<h1 className='my-name'>ADITYA KUMAR</h1>
+					<h1 className='my-name'>Pintu Prusty</h1>
 					<p className='my-details'>
 						{t("HOME_FOOTER_CONTENT.HOME_FOOTER_TEXT")}
 					</p>
@@ -25,7 +25,7 @@ const HomeFooter = () => {
 						<ul>
 							<li>
 								<a
-									href='https://github.com/adityaK87'
+									href='https://github.com/Pintuprusty96'
 									target='_blank'
 									rel='noreferrer'>
 									<span className='github social_btns'>
@@ -35,7 +35,7 @@ const HomeFooter = () => {
 							</li>
 							<li>
 								<a
-									href='https://www.linkedin.com/in/adityak87/'
+									href='https://www.linkedin.com/in/pintu-prusty-274605207/'
 									target='_blank'
 									rel='noreferrer'>
 									<span className='linkedin social_btns'>
@@ -45,7 +45,7 @@ const HomeFooter = () => {
 							</li>
 							<li>
 								<a
-									href='https://twitter.com/aditya_K87'
+									href='https://twitter.com/PintuPrusty'
 									target='_blank'
 									rel='noreferrer'>
 									<span className='twitter social_btns'>
@@ -53,7 +53,7 @@ const HomeFooter = () => {
 									</span>
 								</a>
 							</li>
-							<li>
+							{/* <li>
 								<a
 									href='https://peerlist.io/adityak87'
 									target='_blank'
@@ -66,7 +66,7 @@ const HomeFooter = () => {
 										/>
 									</span>
 								</a>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</div>
@@ -81,7 +81,7 @@ const HomeFooter = () => {
 			</div>
 			<p className='copyright'>
 				<span className='copyright-section'>
-					© {new Date().getFullYear()} - Aditya Kumar
+					© {new Date().getFullYear()} - Pintu Prusty
 				</span>
 			</p>
 		</div>

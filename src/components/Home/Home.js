@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import homeAnime from "../../assets/home_anime.gif";
-import Resume from "../../assets/pdf/Aditya_Kumar_Resume.pdf";
+// import Resume from "../../assets/pdf/Aditya_Kumar_Resume.pdf";
+import Resume from "../../assets/pdf/resume(chemical).pdf"
 import { CgSoftwareDownload } from "react-icons/cg";
 import { BsEye } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
@@ -18,7 +19,7 @@ const Home = () => {
 						{t("HOME_PAGE_CONTENT.THIS")}{" "}
 						<span className='frontName'>
 							<b>
-								<i>Aditya , </i>
+								<i>Pintu , </i>
 							</b>
 						</span>
 						{t("HOME_PAGE_CONTENT.FRONTEND_DEV")}
@@ -32,14 +33,14 @@ const Home = () => {
 						<>
 							<a
 								href={Resume}
-								download='Aditya_Kumar_Resume.pdf'
+								download='resume(chemical).pdf'
 								className='resume-links download-btn'>
 								<CgSoftwareDownload />
 							</a>
 							<a
 								target='_blank'
 								rel='noreferrer'
-								href='https://drive.google.com/file/d/1vG9bbEJthefRA5Sd--DYBfVj9xlifUwz/view'
+								href='https://drive.google.com/file/d/1Tni6S9otYByfvQPlARWw4a9Ek7kPADtH/view?usp=sharing'
 								className='resume-links download-btn'>
 								<BsEye />
 							</a>
